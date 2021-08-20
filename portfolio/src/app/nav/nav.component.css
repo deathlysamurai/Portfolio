@@ -1,0 +1,12 @@
+.nav {
+    position: absolute;
+    margin: 10px;
+    z-index: 10;
+}
+
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::before,
+.hamburger.is-active .hamburger-inner::after,
+.hamburger-inner, .hamburger-inner::before,
+.hamburger-inner::after {
+  background-color: #ebebec; }

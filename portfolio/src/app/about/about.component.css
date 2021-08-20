@@ -1,0 +1,97 @@
+.content-box {
+    position: relative;
+    height: 100%;
+}
+
+.photo {
+    height: 35vw;
+    width: 35vw;
+    background-color: #404046;
+    background-image: url('../../assets/img/headshot.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px 1px #ebebec;
+    z-index: 1;
+}
+
+.position {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-10%, -50%);
+}
+
+.right-side {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom: 0;
+    background-color: #ebebec;
+    width: 65%;
+    margin: 10px 10px 10px 0;
+}
+
+.icons {
+    position:absolute;
+    bottom:0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+fa-icon {
+    color: #404046;
+    margin: 0 3em;
+}
+
+.material-icons {
+    color: #ebebec;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header li {
+    position: relative;
+    display: inline;
+    margin-right: 50px;
+    padding-bottom: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #404046;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.header li a::after, .header li a.is-active::after {
+    content: '';
+    background: #b2b2b5;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s;
+}
+
+.header li a:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}

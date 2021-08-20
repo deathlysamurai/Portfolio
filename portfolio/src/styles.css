@@ -1,14 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~hamburgers/dist/hamburgers.css';
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-/* body {
-    background-image: url('./assets/img/building-and-sky.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow:hidden;
-  } */
-
-body {
-    background-color:whitesmoke;
+html, body { 
+  height: 100%; 
+  overflow: hidden;
 }
+body { 
+  margin: 0; 
+  font-family: Roboto, "Helvetica Neue", sans-serif; 
+  background-color: #404046;
+}
+

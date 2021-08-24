@@ -1,7 +1,63 @@
+button {
+  position: absolute;
+  z-index: 10;
+}
+
 .nav {
-    position: absolute;
-    margin: 10px;
-    z-index: 10;
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+  height: 10%;
+  display: inline-block;
+  background: #b2b2b5;
+  opacity: 90%;
+}
+
+.outsideNav {
+  position: absolute;
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+}
+
+.links {
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.links li {
+  position: relative;
+  display: inline;
+  margin-right: 50px;
+  padding-bottom: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  color: #404046;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.links li a::after, .links li a.is-active::after {
+  content: '';
+  background: #000000;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+
+.links li a:hover::after {
+  transform-origin: bottom left;
+  transform: scaleX(1);
 }
 
 .hamburger.is-active .hamburger-inner,

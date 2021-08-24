@@ -1,9 +1,22 @@
-<div class="nav">
-    <button class="hamburger hamburger--spin" type="button" (click)="animation()">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-    <!-- <mat-icon routerLink="/home">home</mat-icon>
-    <mat-icon routerLink="/about">face</mat-icon> -->
+<button class="hamburger hamburger--spin" type="button" 
+        (click)="toggleNav()">
+    <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+    </span>
+</button>
+
+<div *ngIf="headerVisible" class="nav">
+    <ul class="links">
+        <li>
+          <a routerLink='/home'>Home</a>
+        </li>
+        <li>
+          <a routerLink='/portfolio'>Portfolio</a>
+        </li>
+        <li>
+          <a routerLink='/about'>About</a>
+        </li>
+    </ul>
 </div>
+
+<div *ngIf="headerVisible" class="outsideNav" (click)="toggleNav()"></div>

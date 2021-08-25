@@ -18,3 +18,15 @@ body.active div {
 body.active .material-icons {
   display: none;
 }
+
+h1, h2, p, td {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Allison', cursive;
+}
+
+h2, p {
+  font-family: 'acme', sans-serif;
+}

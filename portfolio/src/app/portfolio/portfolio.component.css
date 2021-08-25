@@ -1,23 +1,17 @@
 h1 {
-    text-align: center;
-    color: white;
-    font-family: 'Allison', cursive;
+    color: #ebebec;
     font-size: 5em;
     margin: 0;
 }
 
 h2 {
-    text-align: center;
-    color: white;
-    font-family: 'acme', sans-serif;
+    color: #ebebec;
     font-size: 3em;
     margin: 0;
 }
 
 p {
-    text-align: center;
-    color: white;
-    font-family: 'acme', sans-serif;
+    color: #ebebec;
     margin: 2em;
 }
 

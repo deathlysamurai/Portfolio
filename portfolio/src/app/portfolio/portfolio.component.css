@@ -1,7 +1,54 @@
 h1 {
     text-align: center;
     color: white;
-    font-family: Allison;
+    font-family: 'Allison', cursive;
     font-size: 5em;
     margin: 0;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'acme', sans-serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    color: white;
+    font-family: 'acme', sans-serif;
+    margin: 2em;
+}
+
+.ta-left {
+    text-align: left;
+}
+
+span {
+    margin-left: 10px;
+}
+
+a {
+    color: white;
+}
+
+.projects {
+
+}
+
+.project {
+    display: inline-flex;
+    margin: 10px;
+    background: rgba(178, 178, 181, .3);
+    overflow: auto;
+}
+
+img {
+    width: 50%;
+    margin: 10px;
+}
+
+.left {
+    float: left;
 }

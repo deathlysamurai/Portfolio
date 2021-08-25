@@ -12,7 +12,7 @@ h1 {
     left: 45%;
     transform: translate(-55%);
     color: #ebebec;
-    font-family: Allison;
+    font-family: 'Allison', cursive;
     font-size: 9vmax;
     font-weight: 400;
 }

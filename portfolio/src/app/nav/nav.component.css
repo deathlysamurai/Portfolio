@@ -40,6 +40,7 @@ button {
   color: #404046;
   font-weight: bold;
   font-size: 3em;
+  font-family: 'acme', sans-serif;
 }
 
 .links li a::after, .links li a.is-active::after {
